@@ -1,38 +1,38 @@
-/* Footer container */
-.footer {
+/* Header container */
+.header {
     position: fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
     padding: 15px 0;
-    background-color: #28a745;
-  }
-  
-  /* Flexbox container for content */
-  .footer-content {
+    background-color: #357243;
+}
+
+/* Flexbox container for content */
+.header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  /* Centered company motto */
-  .company-motto {
+}
+
+/* Centered company motto */
+.company-motto {
     color: #1b36ad;
     text-align: center;
-  }
-  
-  /* Left side of the footer */
-  .footer-left {
+}
+
+/* Left side of the header */
+.header-left {
     text-align: left;
-  }
-  
-  /* Right side of the footer */
-  .footer-right {
+}
+
+/* Right side of the header */
+.header-right {
     text-align: right;
-  }
-  
-  /* Social media links */
-  .social-link {
+}
+
+/* Social media links */
+/* .social-link {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -42,9 +42,17 @@
     line-height: 40px;
     text-align: center;
     margin-right: 10px;
-  }
-  
-  /* Contacts */
-  .contacts {
+} */
+
+/* Contacts */
+.contacts {
     color: #ffffff;
-  }
+}
+.social-link{
+    color: #ffffff;
+    margin-right: 10px;    
+}
+
+.social-links{
+    text-align: center;
+}
