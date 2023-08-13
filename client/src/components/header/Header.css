@@ -1,0 +1,47 @@
+/* Header container */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #357243;
+    }
+    
+    /* Flexbox container for content */
+    .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    /* Centered company motto */
+    .company-motto {
+    color: #1b36ad;
+    text-align: center;
+    }
+    
+    /* Left side of the header */
+    .header-left {
+    text-align: left;
+    }
+    
+    /* Right side of the header */
+    .header-right {
+    text-align: right;
+    }
+    
+    /* Contacts */
+    .contacts {
+    color: #ffffff;
+    }
+    .social-link{
+    color: #ffffff;
+    margin-right: 10px; 
+    }
+    
+    .social-links{
+    text-align: center;
+    }
+    
+    
