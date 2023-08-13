@@ -14,7 +14,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    align-items: flex-start; /* Align content to the top */
+    align-items: flex-start; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +42,7 @@ body {
   .footer-copyright {
     position: absolute;
     bottom: 0;
-    left: 0; /* Align to the left side */
+    left: 0; 
     width: 100%;
   }
 
@@ -52,10 +52,6 @@ body {
     width: 100%;
     align-items: flex-end;
   }
-/* 
-  .footer-section.location {
-    justify-content: center;
-  } */
 
   
   
