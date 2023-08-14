@@ -1,0 +1,16 @@
+.carousel-caption-top {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+  }
+  
+  .caption-text {
+    color: white;
+    font-size: 18px;
+  }
+  
