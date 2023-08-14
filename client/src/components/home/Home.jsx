@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Home.css'; // Import your custom CSS file for styling
+import './Home.css';
+import WhoWeAre from '../whoweare/WhoWeAre';
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -54,13 +55,9 @@ const Home = () => {
     </div>
 
     {/* Text content below carousel */}
-    <div className="home-section">
-      <h2>WHO WE ARE</h2>
-      <p>
-        DISABILITY RELIEF SERVICES (DRS) TANZANIA is a nonprofit making organization dealing with improvement of socio-economic condition in vulnerable, marginalized and deprived communities in Tanzania. Core activities: Social Protection Interventions for People with Special Needs (PWSNs) and adolescent girls and young women (AGYW), advocacy and promotion for human rights, actions to end Violence Against Women and Children (VAWC), Social economic empowerment, Environment and Health.
-      </p>
-    </div>
-  </div>
+    <WhoWeAre />
+     </div>
+     
     
   );
 };

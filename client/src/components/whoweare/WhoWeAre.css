@@ -1,0 +1,23 @@
+.we-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: gray;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .paragraphs {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
