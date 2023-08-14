@@ -1,18 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Note the import of Routes
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
-import WhoWeAre from './components/whoWeAre/WhoWeAre';
-import WhatWeDo from './components/whatWeDo/WhatWeDo';
-import OurProjects from './components/ourProjects/OurProjects';
-import ContactUs from './components/contactUs/ContactUs';
-import WhoWeAre from './components/whoWeAre/WhoWeAre';
-import WhatWeDo from './components/whatWeDo/WhatWeDo';
-import OurProjects from './components/ourProjects/OurProjects';
-import ContactUs from './components/contactUs/ContactUs';
-
+import WhatWeDo from './components/whatwedo/WhatWeDo';
+import ContactUs from './components/contactus/ContactUs';
+import WhoWeAre from './components/whoweare/WhoWeAre';
+import OurProjects from './components/ourprojects/OurProjects';
 
 const App = () => {
   return (
@@ -20,11 +15,13 @@ const App = () => {
       <div>
         <Header />
         <Navbar />
-        <Route path="/" exact component={Home} />
-        <Route path="/who-we-are" component={WhoWeAre} />
-        <Route path="/what-we-do" exact component={WhatWeDo} />
-        <Route path="/our-projects" exact component={OurProjects} />
-        <Route path="/contact-us" exact component={ContactUs} />
+        <Routes> 
+          <Route path="/" element={<Home />} />
+          <Route path="/who-we-are" element={<WhoWeAre />} />
+          <Route path="/what-we-do" element={<WhatWeDo />} />
+          <Route path="/our-projects" element={<OurProjects />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+        </Routes>
         <Footer />
       </div>
     </Router>

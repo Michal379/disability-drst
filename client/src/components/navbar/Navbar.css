@@ -1,28 +1,29 @@
+
 .navbar {
-    background-color: #357243;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  .navbar-nav {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .nav-item {
-    margin: 0 15px;
-  }
-  
-  .nav-link {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  
-  .nav-link:hover {
-    color: #f8f8f8;
-  }
-  
+  background-color: #f0f0f0; /* Grayish background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px; /* Adjust the height as needed */
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: black; /* Black link text color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #333; /* Darker color on hover */
+}
