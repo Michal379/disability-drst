@@ -4,14 +4,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
 import WhoWeAre from '../whoweare/WhoWeAre';
 import WhatWeDo from '../whatwedo/WhatWeDo';
+import OurPartners from '../ourpartners/OurPartners';
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const images = [
-    'https://i.pinimg.com/564x/e8/18/78/e818786c406c5ec8ed90c64ff2528344.jpg',
+    'https://drc.ngo/media/zbflsoam/sudan-a-f-p.jpg?width=500&mode=crop',
     'https://i.pinimg.com/564x/8c/c3/55/8cc3557f582379c92a3deb343d17b1b0.jpg',
-    'https://i.pinimg.com/564x/bb/f3/b7/bbf3b70a0874f903ed56790399a9c7c6.jpg',
+    'https://pro.drc.ngo/media/pmegaipv/frontpage-burkinafaso.jpg?anchor=center&mode=crop&quality=80&width=500&height=500&rnd=133057995615770000',
     'https://i.pinimg.com/564x/32/41/5e/32415ea2fe40d04624f5d7772c8a645a.jpg',
     'https://i.pinimg.com/564x/38/b4/85/38b4850c3d95c78547e6d32743667d4c.jpg',
     'https://i.pinimg.com/564x/9e/7a/a7/9e7aa70a9901b25c35be7030700bdddc.jpg'
@@ -58,6 +59,7 @@ const Home = () => {
     {/* Text content below carousel */}
     <WhoWeAre />
     <WhatWeDo />
+    <OurPartners />
      </div>
      
     
