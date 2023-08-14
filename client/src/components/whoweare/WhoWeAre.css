@@ -7,10 +7,23 @@
   background-color: gray;
 }
 
-.title {
+.we-container h2.title {
   text-align: center;
+  position: relative;
+  margin-bottom: 20px;
 }
 
+.we-container h2.title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: yellow;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .paragraphs {
   text-align: center;
   margin: 10px 0;

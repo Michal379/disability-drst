@@ -7,8 +7,22 @@
     text-align: center;
   }
   
-  .container h2 {
-    margin-bottom: 10px;
+  .do-container h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+  }
+
+.do-container h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: yellow;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
   }
   
   .container p {

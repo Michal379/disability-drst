@@ -22,7 +22,6 @@ const WhatWeDo = () => {
     <p>Most of the projects, programs and activities undertaken by the organization generally</p>
     <p>associated with efforts in People with Special Needs programs.</p>
     <div className="do-sections">
-      {/* Repeat the following pattern for each section */}
       <div className="do-section">
         <span style={iconStyle}>
           <FontAwesomeIcon icon={faShieldAlt} size="lg" />
@@ -43,9 +42,7 @@ const WhatWeDo = () => {
           <p>people with the opportunities and resources they need</p>
           <p>to achieve sustainable growth and success.</p>
           <button>READ MORE</button>
-        </div>
-        
-        {/* Repeat for other sections */}
+        </div>        
         <div className="do-section">
           <span style={iconStyle}>
             <FontAwesomeIcon icon={faHeartbeat} size="lg" />
@@ -54,9 +51,7 @@ const WhatWeDo = () => {
           <p>The health program focuses on improving access to</p>
           <p>quality healthcare for all.</p>
           <button>READ MORE</button>
-        </div>
-        
-        {/* Repeat for other sections */}
+        </div>        
         <div className="do-section">
           <span style={iconStyle}>
             <FontAwesomeIcon icon={faHandPeace} size="lg" />
@@ -67,9 +62,7 @@ const WhatWeDo = () => {
           <p>just world for women and children by addressing and</p>
           <p>ending violence against them.</p>
           <button>READ MORE</button>
-        </div>
-        
-        {/* Repeat for other sections */}
+        </div>        
         <div className="do-section">
           <span style={iconStyle}>
             <FontAwesomeIcon icon={faGlobe} size="lg" />
@@ -79,9 +72,7 @@ const WhatWeDo = () => {
           <p>protect the vulnerable and ensure their rights are</p>
           <p>respected</p>
           <button>READ MORE</button>
-        </div>
-        
-        {/* Repeat for other sections */}
+        </div>        
         <div className="do-section">
           <span style={iconStyle}>
             <FontAwesomeIcon icon={faGraduationCap} size="lg" />
