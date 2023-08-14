@@ -3,6 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
 import WhoWeAre from '../whoweare/WhoWeAre';
+import WhatWeDo from '../whatwedo/WhatWeDo';
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -56,6 +57,7 @@ const Home = () => {
 
     {/* Text content below carousel */}
     <WhoWeAre />
+    <WhatWeDo />
      </div>
      
     
