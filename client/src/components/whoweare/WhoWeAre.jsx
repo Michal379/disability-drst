@@ -1,5 +1,5 @@
 import React from 'react';
-import './WhoWeAre.css'; 
+import './WhoWeAre.css';
 
 const WhoWeAre = () => {
   return (
@@ -16,7 +16,7 @@ const WhoWeAre = () => {
         <button>Learn More</button>
       </div>
     </div>
-  )
+  );
 }
 
 export default WhoWeAre;
