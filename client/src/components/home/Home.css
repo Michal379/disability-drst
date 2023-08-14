@@ -13,4 +13,18 @@
     color: white;
     font-size: 18px;
   }
+
+.home-section {
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-section h2 {
+    color: white;
+  }
+  
+  .home-section p {
+    color: white; 
+  }
   
