@@ -45,7 +45,7 @@ const Home = () => {
           src={image}
           className="d-block w-100"
           alt={`Slide ${index + 1}`}
-          style={{ maxWidth: '100%', maxHeight: '60vh', objectFit: 'cover' }}
+          style={{ maxWidth: '100%', maxHeight: '80vh', objectFit: 'cover' }}
         />
         <div className="carousel-caption-top">
           <h3 className="caption-text">{captions[index]}</h3>
