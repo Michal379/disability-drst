@@ -6,7 +6,8 @@ import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import WhatWeDo from './components/whatwedo/WhatWeDo';
 import ContactUs from './components/contactus/ContactUs';
-import WhoWeAre from './components/whoweare/WhoWeAre';
+import WhoWeAre from './components/whoweare/WhoWeAre'; 
+import WhoWeArePage from './components/whoweare/WhoWeArePage';
 import OurProjects from './components/ourprojects/OurProjects';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Routes> 
           <Route path="/" element={<Home />} />
           <Route path="/who-we-are" element={<WhoWeAre />} />
+          <Route path="/who-we-are" element={<WhoWeArePage />} />
           <Route path="/what-we-do" element={<WhatWeDo />} />
           <Route path="/our-projects" element={<OurProjects />} />
           <Route path="/contact-us" element={<ContactUs />} />

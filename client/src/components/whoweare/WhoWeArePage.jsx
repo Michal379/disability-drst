@@ -1,31 +1,9 @@
-import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
-import './WhoWeAre.css';
+import React from 'react';
+import './WhoWeArePage' ;
 
-const WhoWeAre = () => {
-  const [showDetails, setShowDetails] = useState(false);
-
-  const toggleDetails = () => {
-    setShowDetails(!showDetails);
-  };
-
+const WhoWeArePage = () => {
   return (
-    <div className="we-container">
-      <h2 className="title">Who We Are</h2>
-      <div className="paragraphs">
-        <p>DISABILITY RELIEF SERVICES (DRS) TANZANIA is a nonprofit making organization dealing with</p>
-        <p>improvement of socio-economic condition in vulnerable, marginalized and deprived communities in Tanzania.</p>
-        <p>and Health. Core activities: Social Protection Interventions for People with Special Needs (PWSNs) and</p>
-        <p>adolescent girls and young women (AGYW), advocacy and promotion for human rights, actions to end Violence</p>
-        <p>Against Women and Children (VAWC), Social economic empowerment, Environment and Health.</p>
-      </div>  
-      <div className="button-container">
-      <Link to="/who-we-are">
-      <button onClick={toggleDetails}>Learn More</button>
-      </Link>
-      </div>
-      {showDetails && (
-      <div>
+    <div>
       <p>
       <h3>Organization Background</h3>
 DISABILITY RELIEF SERVICES (DRS) TANZANIA is a registered Non-Government Organization. It has been established since 2008 and got legal registration No. 00NGO/00002597 of 16th October 2008. It is a nonprofit making organization dealing improvement of socio-economic condition in vulnerable, marginalized and deprived communities in refugee’s camp and host communities Tanzania. Core activities of the DRS-TANZANIA are Social Protection Interventions for People with Special Needs (PWSNs) and adolescent girls and young women (AGYW), advocacy and promotion for human rights, actions to end Violence Against Women and Children (VAWC), Social economic empowerment, Environment, Zero Human Trafficking and Health.
@@ -57,10 +35,8 @@ Partnership and Collaboration
 Equity and Diversity
 Transparency and Accountability
       </p> 
-      </div>
-      )}
     </div>
-  );
+  )
 }
 
-export default WhoWeAre;
+export default WhoWeArePage

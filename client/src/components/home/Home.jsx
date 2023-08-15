@@ -20,13 +20,24 @@ const Home = () => {
   ];
 
   const captions = [
-    'EMPOWERING PEOPLE WITH SPECIAL NEEDS\nHelping those in need find their way to a brighter future',
-    'INVESTING IN ECONOMIC EMPOWERMENT\nProviding opportunities for sustainable growth and success',
-    'PREVENTING HUMAN TRAFFICKING\nProtecting the vulnerable and ensuring their rights are respected',
-    'IMPROVING HEALTH AND WELL-BEING\nProviding access to quality healthcare for all',
-    'INVESTING IN EDUCATION\nTransforming lives through learning and development.',
-    'CLIMATE JUSTICE AND RESILIENCE\nProvide youth with knowledge and tools to raise awareness and promote progressive social change.'
+    'EMPOWERING PEOPLE WITH SPECIAL NEEDS\
+    nHelping those in need find their way to a brighter future',
+    'INVESTING IN ECONOMIC EMPOWERMENT\
+    nProviding opportunities for sustainable growth and success',
+    'PREVENTING HUMAN TRAFFICKING\
+    nProtecting the vulnerable and ensuring their rights are respected',
+    'IMPROVING HEALTH AND WELL-BEING\
+    nProviding access to quality healthcare for all',
+    'INVESTING IN EDUCATION\
+    nTransforming lives through learning and development.',
+    'CLIMATE JUSTICE AND RESILIENCE\
+    nProvide youth with knowledge and tools to raise awareness and promote progressive social change.'
   ];
+
+   // Separate captions with capital letters and small letters
+   const capitalCaptions = captions.map((caption) => caption.split('\\n')[0]);
+   const smallCaptions = captions.map((caption) => caption.split('\\n')[1]);
+ 
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -36,6 +47,7 @@ const Home = () => {
     return () => clearInterval(interval);
   }, [images.length]);
 
+  
   return (
     <div className="home-container">
    <div id="carouselExampleCaptions" className="carousel slide carousel-container">
@@ -49,8 +61,9 @@ const Home = () => {
           style={{ maxWidth: '100%', maxHeight: '80vh', objectFit: 'cover' }}
         />
         <div className="carousel-caption-top">
-          <h3 className="caption-text">{captions[index]}</h3>
-        </div>
+                <h3 className="caption-text">{capitalCaptions[index]}</h3>
+                <p className="caption-text-small">{smallCaptions[index]}</p>
+              </div>
       </div>
     ))}
   </div>

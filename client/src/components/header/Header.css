@@ -1,10 +1,11 @@
 body {
     margin: 0;
     
-  }.header {
-    position: fixed;
+  }
+  .header {
+    /* position: relative;
     top: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
     padding: 15px 0;
     background-color: #357243;
