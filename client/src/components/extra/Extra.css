@@ -1,0 +1,33 @@
+.extra-container {
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(214, 178, 31);
+    padding: 20px;
+    height: 20vh;
+  }
+  
+  .text-section {
+    flex: 1;
+    color: white;
+  }
+  
+  .text-section p:nth-child(1),
+  .text-section p:nth-child(2) {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .text-section p:nth-child(3) {
+    font-size: 14px;
+  }
+  
+  .cta-button {
+    background-color: #357243;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  

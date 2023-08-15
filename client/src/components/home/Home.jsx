@@ -5,6 +5,7 @@ import './Home.css';
 import WhoWeAre from '../whoweare/WhoWeAre';
 import WhatWeDo from '../whatwedo/WhatWeDo';
 import OurPartners from '../ourpartners/OurPartners';
+import Extra from '../extra/Extra'
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -59,6 +60,7 @@ const Home = () => {
     {/* Text content below carousel */}
     <WhoWeAre />
     <WhatWeDo />
+    <Extra />
     <OurPartners />
      </div>
      
