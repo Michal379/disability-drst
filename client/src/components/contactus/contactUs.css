@@ -1,0 +1,56 @@
+.contact-us-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-details {
+  flex: 1;
+}
+
+.contact-item .icon {
+    color: rgb(225, 178, 23); /* Icon color */
+    margin-right: 10px;
+  }
+
+.contact-details h3 {
+  color: rgb(225, 178, 23);
+  text-decoration: underline green;
+}
+
+.contact-form {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.form-title {
+  color:rgb(225, 178, 23);
+  text-decoration: underline green;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.send-button {
+  background-color:rgb(225, 178, 23);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

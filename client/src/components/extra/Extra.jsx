@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Extra.css'; 
 
 const Extra = () => {
@@ -9,7 +10,7 @@ const Extra = () => {
         <p>Communities</p>
         <p>Together, Let's Build a Brighter Future for All!</p>
       </div>
-      <button className="cta-button">CALL TO ACTION</button>
+      <Link to="/contact-us" className="cta-button">CALL TO ACTION</Link>
     </div>
   );
 }
