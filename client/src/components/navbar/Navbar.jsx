@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logoimage from '../../images/logoimage.png' 
 
 const Navbar = () => {
   const navStyle = {
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
-    background: 'gray',
+    background: ' rgb(238, 210, 210',
     color: '#fff',
     padding: '1rem 0',
   };
@@ -20,6 +21,10 @@ const Navbar = () => {
 
   return (
     <nav style={navStyle}>
+       {/* Logo */}
+       <div>
+        <img src={logoimage} alt="Logo" style={{ width: '200px' }} />
+      </div>
       <ul style={{ listStyleType: 'none', display: 'flex', padding: 0 }}>
         <li className="nav-item">
           <Link to="/" style={linkStyle}>Home</Link>
