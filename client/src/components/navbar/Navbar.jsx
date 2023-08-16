@@ -7,7 +7,7 @@ const Navbar = () => {
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
-    background: ' rgb(238, 210, 210',
+    background: 'rgb(238, 210, 210)',
     color: '#fff',
     padding: '1rem 0',
   };
@@ -17,6 +17,14 @@ const Navbar = () => {
     textDecoration: 'none',
     padding: '0.5rem 1rem',
     borderRadius: '5px',
+  };
+
+  const donateButtonStyle = {
+    backgroundColor: 'rgb(225, 178, 23)',
+    color: 'black',
+    padding: '0.75rem 1.5rem',
+    borderRadius: '10px',
+    fontSize: '1.2rem',
   };
 
   return (
@@ -45,6 +53,7 @@ const Navbar = () => {
           <Link to="/contact-us" style={linkStyle}>Contact Us</Link>
         </li>
       </ul>
+      <Link to="/contact-us" style={donateButtonStyle}>DONATE NOW</Link>
     </nav>
   );
 }

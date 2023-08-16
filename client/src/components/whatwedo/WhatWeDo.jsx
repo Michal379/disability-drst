@@ -5,7 +5,7 @@ import { faShieldAlt, faBriefcase, faHeartbeat, faHandPeace, faGlobe, faGraduati
 import { Button } from 'react-bootstrap';
 
 const iconStyle = {
-  backgroundColor: 'yellow',
+  backgroundColor: 'rgb(225, 178, 23)',
   padding: '10px',
   borderRadius: '50%',
   marginRight: '10px',
