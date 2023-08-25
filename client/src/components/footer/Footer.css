@@ -60,29 +60,6 @@ body {
   justify-content: flex-end; /* Right-align content */
 }
 
-/* Existing styles */
 
-.footer-section.footer-copyright {
-  bottom: 0;
-  left: 0; 
-  width: 100%;
-}
-
-
-/* Use flex utilities to push each p to its respective edge */
-.footer-section.footer-copyright .copyright-content {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: flex-end;
-}
-
-.left-copyright {
-  margin-right: auto; /* Push the content to the far left */
-}
-
-.right-copyright {
-  margin-left: auto; /* Push the content to the far right */
-}
 
 
