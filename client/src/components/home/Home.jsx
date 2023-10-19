@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
+
 import WhoWeAre from '../whoweare/WhoWeAre';
 import WhatWeDo from '../whatwedo/WhatWeDo';
 import OurPartners from '../ourpartners/OurPartners';
